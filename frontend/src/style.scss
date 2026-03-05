@@ -1,0 +1,31 @@
+// Global Variables
+$primary-color: #000000;
+$text-dark: #1a1a1a;
+$text-light: #666666;
+$border-color: #e0e0e0;
+$bg-light: #ffffff;
+$bg-gray: #f8f8f8;
+$shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+$border-radius: 0.5rem;
+$transition: all 0.2s ease;
+
+// Global Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Global Styles
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+html ,body , #root{
+   width:100%;
+   background-color: $bg-light;
+   color:$text-dark
+}
+
