@@ -1,4 +1,4 @@
-// Global Variables
+
 $primary-color: #000000;
 $text-dark: #1a1a1a;
 $text-light: #666666;
@@ -9,7 +9,7 @@ $shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 $border-radius: 0.5rem;
 $transition: all 0.2s ease;
 
-// Global Mixins
+
 @mixin flex-center {
   display: flex;
   justify-content: center;

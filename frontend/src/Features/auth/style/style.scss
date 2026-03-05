@@ -1,7 +1,5 @@
 @import '../../../style.scss';
 
-// Variables and mixins are defined in /style.scss
-
 .form-grp {
   @include flex-center;
   flex-direction: column;
